@@ -1,2 +1,2 @@
 # Task+
-Projeto feito com o intuíto de praticar Next.js
+Projeto feito com o intuito de praticar Next.js
