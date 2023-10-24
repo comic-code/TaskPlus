@@ -9,14 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
+    "next-auth": "^4.24.3",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
-    "@types/react-dom": "latest"
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
   }
 }
