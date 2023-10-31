@@ -14,7 +14,7 @@ export default function Header() {
               Task<span>+</span>
             </h1>
           </Link>
-          { session?.user &&
+          {session?.user &&
             <Link href="/dashboard" className={styles.link}>
               Meu Painel
             </Link>

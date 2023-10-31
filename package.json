@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^10.5.0",
     "next": "latest",
     "next-auth": "^4.24.3",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@types/node": "latest",

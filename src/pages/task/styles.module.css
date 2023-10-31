@@ -1,0 +1,82 @@
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 32px auto 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+}
+
+.main h1 {
+  margin-bottom: 16px;
+}
+
+.task {
+  border: 1.5px solid #909090;
+  padding: 16px;
+  line-height: 150%;
+  border-radius: 5px;
+}
+
+.task p {
+  white-space: pre-wrap;
+  width: 100%;
+}
+
+.commentsContainer {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.commentsContainer h2 {
+  margin: 16px 0;
+}
+
+.button {
+  width: 100%;
+  padding: 12px 0;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #3183ff;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.comment {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.headComment {
+  display: flex;
+  align-self: center;
+}
+
+.commentLabel {
+  background-color: #ccc;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.buttonTrash {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.comment p {
+  margin-top: 8px;
+  white-space: pre-wrap;
+}
